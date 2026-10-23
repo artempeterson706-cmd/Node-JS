@@ -19,5 +19,5 @@ const server = http.createServer((req, res) => {
     res.end(menu + '<div>404 Page Not Found</div>');
 });
 server.listen(port, () => {
-   console.log(`Server running at http://${hostname}:${port}/`);
+    console.log(`Server running at http://localhost:${port}/`);
 });
